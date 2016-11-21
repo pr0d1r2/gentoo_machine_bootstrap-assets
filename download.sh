@@ -9,12 +9,12 @@ else
   CMD="wget"
 fi
 
-if [ ! -f portage-20161119.tar.xz ]; then
-  $CMD http://mirror.switch.ch/ftp/mirror/gentoo/releases/snapshots/current/portage-20161119.tar.xz || return $?
+if [ ! -f portage-20161120.tar.xz ]; then
+  $CMD http://mirror.switch.ch/ftp/mirror/gentoo/releases/snapshots/current/portage-20161120.tar.xz || return $?
 fi
 
-if [ ! -f stage3-amd64-systemd-20161113.tar.bz2 ]; then
-  $CMD http://mirror.switch.ch/ftp/mirror/gentoo/releases/amd64/autobuilds/current-stage3-amd64-systemd/stage3-amd64-systemd-20161113.tar.bz2
+if [ ! -f stage3-amd64-systemd-20161118.tar.bz2 ]; then
+  $CMD http://mirror.switch.ch/ftp/mirror/gentoo/releases/amd64/autobuilds/current-stage3-amd64-systemd/stage3-amd64-systemd-20161118.tar.bz2
 fi
 
 if [ ! -f stage4-amd64-cloud-20161117.tar.bz2 ]; then
